@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+
+
+h2 {
+    font-family: 'Ranchers', sans-serif;
+    color: rgb(8, 1, 17);
+    font-size: 3rem;
+}
+h5 {
+    font-family: 'Ranchers', sans-serif;
+    color: rgba(21, 29, 20, 0.952);
+    font-size: 1rem;
+}
+h6 {
+    font-family: 'Ranchers', sans-serif;
+    color: rgb(250, 31, 184);
+    font-size: 2rem;
+}
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.zone {
+    margin: 0;
+    cursor:pointer;
+    color:white;
+    font-size: 2em;
+    border-radius: 4px;
+    border:1px solid rgb(63, 90, 94);
+    transition: all 0.3s linear;
+}
+.zone:hover {
+    box-shadow: skyblue;
+}
+.header {
+    background: rgba(16, 17, 17, 0.815);
+}
+.title {
+    background-image: linear-gradient(to left,rgb(128, 128, 128),rgb(41, 90, 97));
+}
+.works {
+    text-align: center;
+    background-color: rgb(61, 94, 100);
+}
+.footer {
+    cursor:pointer;
+    color:white;
+    font-size:10px;
+    border-radius: 4px;
+    border:2px solid rgb(6, 42, 48);
+    background-color: rgb(61, 94, 100);
+    transition: all 0.3s linear;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+@media only screen and (max-width:600px) {
+    .main-nav {
+        font-size: 0.5rem;
+        padding: 0;
+    }
+
+}
+.push {
+    margin-left: auto;
+}
+li {
+    padding:20px;
+}
+a {
+    color:#f6f5f6;
+    text-decoration: none;
+}
+/* cover */
+.container {
+    border-bottom: 5px;
+    margin: 0;
+    height: 90vh;
+}
+.fa {
+    color: rgba(248, 248, 9, 0.986);
+    font-size: 6rem;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: 'Ranchers', sans-serif;
+    color: rgba(248, 248, 9, 0.986);
+    font-size: 6rem;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+
+}
+
+/* grid */
+.grid-wrapper {
+    border: 0;
+    margin: 0;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.box > img {
+    width: 100%;
+}
+.box {
+    background-color:rgb(61, 55, 61);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box2 > img {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.box2 {
+    background-color:rgb(61, 55, 61);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 50%;
+    height: 28%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box3 {
+    align-content: center;
+    background-color:rgba(47, 235, 172, 0.027);
+    padding: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 40%;
+    height: 20%;
+    transition: all;
+    box-shadow: 0 4px 8px 0 rgba(14, 243, 167, 0.2), 0 6px 20px 0 rgba(25, 176, 202, 0.19);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+
+}
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 34px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(24, 8, 20);
+    background-color: #ddeb1000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px rgb(70, 53, 71);
+}
+#button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #1e0222;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 7px rgb(70, 53, 71);
+  }
+  
+#button:hover {background-color: #1a021f}
+  
+#button:active {
+    background-color: #1d0325;
+    box-shadow: 0 5px rgb(62, 46, 63);
+    transform: translateY(4px);
+}
+p,ol,ul {
+    font-size: 20px;
+    text-align: justify;
+}
+.footer2 {
+    cursor:pointer;
+    color:white;
+    font-size:10px;
+    border-radius: 4px;
+    border:1px solid rgb(63, 90, 94);
+    background-image: linear-gradient(to left,rgb(128, 128, 128),rgb(41, 90, 97));
+    transition: all 0.3s linear;
+}
+.contact-wrapper {
+    margin-top: 3.2rem;
+    padding: 0 2rem;
+    backface-visibility: hidden;
+}
